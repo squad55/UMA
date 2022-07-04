@@ -53,5 +53,4 @@ Como aconteceu a divisão das tarefas entre os integrantes do Squad
 
 Quais foram os desafios  
 
-Pontos de melhoria que o Squad já identificou 
-
+Pontos de melhoria que o Squad já identificou
