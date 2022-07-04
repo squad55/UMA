@@ -55,6 +55,3 @@ Quais foram os desafios
 
 Pontos de melhoria que o Squad já identificou 
 
-Bom trabalho!
-
-Equipe Recode
