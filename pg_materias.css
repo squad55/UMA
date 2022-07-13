@@ -45,6 +45,9 @@ a:active {
     transform: scale(1.03);
 }
 
+.botao{
+	background-color: rgb(65, 65, 65);
+}
 .barraDeNavegacao {
     font-family: 'Roboto Mono';
     font-weight: 700;
