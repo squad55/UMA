@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand text-info" href="#">
+                    <img src="Imagem/icons8-unity-symbol-48.png" alt="" width="30" height="30" class="d-inline-block align-text-top">
+                    Squad55
+                  </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="login.html">Login</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Perfil</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Matéria</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled text-white" href="#">Ajuda</a>
+                  </li>
+                </ul>
+                <!--<form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-primary" type="submit">Search</button>
+                </form>-->
+              </div>
+            </div>
+          </nav>
+        </header>
+        <br><br>
+        <section class="vh-100">
+            <div  class="container-fluid h-custom pt-1" >
+              <div class="row d-flex justify-content-center align-items-center h-100">
+                <div id="divlogin" class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+                  <form>
+                    <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start pt-1">
+                      <h4 id="bv">Preencha os dados para criar seu cadastro</h1>
+                    </div>
+          
+                    <div class="divider d-flex align-items-center my-3"></div>
+          
+                    <!-- Dados cadastrais-->
+                    <div class="form-outline mb-4">
+                      Nome: <input type="text" id="form3Example3" class="form-control"/>
+                      Sobrenome: <input type="text" id="form3Example3" class="form-control"/>
+                      Endereço:  <input type="address" id="form3Example3" class="form-control"/>
+                      Data de Nascimento:  <input type="date" id="form3Example3" class="form-control"/>
+                      Escolha sua escola  <select class="form-control">
+                                            <option>Escola 1</option>
+                                            <option>Escola 2</option>
+                                            <option>Escola 3</option>
+                                            <option>Escola 4</option>
+                                        </select>
+                      
+                      <p class="text-center pt-2">Dados de login</p>
+                      <input type="email" id="form3Example3" class="form-control form-control-sm" placeholder="Digite seu E-mail" /><br>
+                      <input type="password" id="form3Example3" class="form-control form-control-sm" placeholder="Crie uma senha" /><br>
+                      <input type="password" id="form3Example3" class="form-control form-control-sm" placeholder="Repita a senha"/>
+                    </div>
+        
+                    <div class="text-center text-lg-start mt-4 pt-1 pb-3">
+                      <button type="button" class="btn btn-info"
+                        style="padding-left: 2.5rem; padding-right: 2.5rem;">Criar cadastro</button>
+                    </div>
+          
+                  </form>
+                </div>
+              </div>
+            </div>
+          </section>
+</body>
+</html>

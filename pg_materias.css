@@ -6,9 +6,9 @@
 }
 
 body {
-    background: rgb(6, 1, 100);
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 212, 255, 1) 100%, rgba(9, 9, 121, 1) 35%);
+    background: #94c7d757;
 }
+
 
 /*Animaçãod dos links*/
 .animacao:link,
@@ -25,28 +25,8 @@ a:active {
     font-family: 'Roboto Mono';
     font-weight: 700;
     border-radius: 10px;
+    
 
-}
-
-.cardAnimacao {
-    overflow: hidden;
-}
-
-.cardAnimacao div {
-    max-width: 100%;
-    -moz-transition: all 0.3s;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-}
-
-.cardAnimacao:hover div {
-    -moz-transform: scale(0.05);
-    -webkit-transform: scale(0.05);
-    transform: scale(1.03);
-}
-
-.botao{
-	background-color: rgb(65, 65, 65);
 }
 .barraDeNavegacao {
     font-family: 'Roboto Mono';
@@ -54,8 +34,43 @@ a:active {
 
 }
 
+.rodaPe {
+    font-family: 'Roboto Mono';
+    color: #0DCACE;
+    text-decoration: none;
+
+}
+
+/* a partir daqui*/
+
+.cardAnimacao {
+    overflow: hidden;
+}
+
+.cardAnimacao {
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.cardAnimacao:hover {
+    -moz-transform: scale(0.05);
+    -webkit-transform: scale(0.05);
+    transform: scale(1.05);
+    
+}
+.card-body{
+    background-color: #022f3d10;
+    
+}
+
+.botao{
+	background-color: rgb(65, 65, 65);
+}
+
 .TituloPagina {
-    color: antiquewhite;
+    color: #293136;
     font-family: 'Roboto Mono';
     font-weight: 700;
 
@@ -63,29 +78,32 @@ a:active {
 
 .SubTituloPagina {
     font-family: 'Roboto Mono';
-    color: antiquewhite;
+    color: #293136;
     text-align: left;
-
+    font-weight: 500;
+    
 }
 
-.rodaPe {
-    font-family: 'Roboto Mono';
-    color: antiquewhite;
-    text-decoration: none;
 
-}
-
-h3 {
+.titulo-materia {
     font-family: 'Roboto Mono', sans-serif;
     font-weight: 700;
-    background-color: rgba(0, 0, 0, 0.342);
+    background-color: rgba(0, 0, 0, 0.11);
     color: rgb(58, 33, 2);
     border-radius: 5px;
     text-align: center;
 }
 
-p {
+.descricao-materia {
     font-family: 'PT Sans';
-    font-weight: 100;
+    font-weight: 300;
     color: rgb(63, 63, 63);
 }
+
+.iniciar-aula{
+    background-color: rgba(0, 0, 0, 0.11);
+    color: rgb(58, 33, 2) ;
+    font-weight: 700;
+}
+
+
