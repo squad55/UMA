@@ -191,10 +191,19 @@ a:active {
     font-weight: 700;
     border-radius: 10px;
 }
-
+.botao-ajuda {
+    background-color: #12141C;
+    text-align: center;
+    font-weight: 600;
+}
+.titulo-card{
+    font-family: 'Roboto Mono';
+    color: #0CCAF0;
+    font-weight: 500;
+    margin-top: 5px;
+    
+}
 section::before {
-    content: '';
-    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -204,8 +213,6 @@ section::before {
   }
   
   section::after {
-    content: '';
-    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -214,18 +221,10 @@ section::before {
     clip-path: circle(0 at 10% 70%);
   }
   
-  .container-ajuda {
-    position: relative;
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 40px 0;
-  }
+
   
   .container-ajuda .card {
-    position: relative;
+    
     width: 300px;
     height: 400px;
     background-color: #343A40;
@@ -241,7 +240,7 @@ section::before {
   }
   
   .container-ajuda .card .content {
-    position: relative;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -254,14 +253,14 @@ section::before {
   }
   
   .container-ajuda .card .content .imgBx {
-    position: relative;
+    
     width: 150px;
     height: 150px;
     overflow: hidden;
   }
   
   .container-ajuda .card .content .imgBx img {
-    position: absolute;
+    
     top: 0;
     left: 0;
     width: 100%;
@@ -269,7 +268,7 @@ section::before {
     object-fit: cover;
   }
   
-  .container-ajuda .card .content .contentBx h3 {
+  .container-ajuda .card .content .contentBx .titulo-card {
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -280,14 +279,14 @@ section::before {
     line-height: 1.1em;
   }
   
-  .container-ajuda .card .content .contentBx h3 span {
+  .container-ajuda .card .content .contentBx .titulo-card span {
     font-size: 12px;
     font-weight: 300;
     text-transform: initial;
   }
   
   .container-ajuda .card .sci {
-    position: absolute;
+    
     bottom: 50px;
     display: flex;
   }
@@ -306,7 +305,7 @@ section::before {
     opacity: 1;
   }
   
-  .container-ajuda .card .sci .redes a {
+  .container-ajuda .card .sci .redes .botao-ajuda {
     color: #fff;
     font-size: 20px;
   }
