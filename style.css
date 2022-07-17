@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;1,400;1,700&family=Roboto+Mono:ital,wght@0,400;0,600;1,100;1,200&display=swap');
 
 
-/*CSS de todas as paginas*/
+/*Todas as paginas*/
 * {
     margin: 0;
     padding: 0;
@@ -40,9 +40,9 @@ a:active {
     text-decoration: none;
 
 }
-/*Fim do CSS de todas as paginas*/
+/*Fim de todas as paginas*/
 
-/*CSS da pagina de home*/
+/*Pagina de home*/
 
 .titulo-pagina {
     font-family:'Roboto Mono';
@@ -61,16 +61,13 @@ a:active {
     font-size: 16px;
 }
 
-/*Fim do CSS da pagina de home*/
+/*Fim da pagina de home*/
 
 
-/*CSS da pagina de login*/
-
-
+/*Pagina de login/Cadastro*/
 .bv {
     font-family: 'Roboto Mono';
     color: #0CCAF0;
-    /*text-align: center;*/
     font-weight: 500;
     margin-top: 5px;
     text-decoration: none;
@@ -89,17 +86,32 @@ a:active {
     font-weight: 600;
 }
 
-  @media (max-width: 992px) {
-        .logo {
-            display: none;
-        }
-        form {
-            align-items: center;
-        }
-        .botao-login {
-            text-align: center;
-        }
+.bv-cadastro {
+    font-family: 'Roboto Mono';
+    color: #0CCAF0;
+    font-weight: 500;
+    margin-top: 5px;
+    text-decoration: none;
+    
 }
+
+@media (max-width: 992px) {
+    .logo {
+        display: none;
+    }
+    form {
+        align-items: center;
+    }
+    .botao-login {
+        text-align: center;
+    }
+    .logo-cadastro{
+        display: none;
+    }
+}
+
+/*Fim da pagina de login/Cadastro*/
+
 
 /*Pagina de perfil*/
 
@@ -170,5 +182,131 @@ a:active {
     color: rgb(58, 33, 2) ;
     font-weight: 700;
 }
-
 /*Fim da pagina de matérrias*/
+
+/*Pagina de Contato/Ajuda*/
+.redes{
+    background: rgba(1, 1, 12, 0.459);
+    font-family: 'Roboto Mono';
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#DA22FF, #9733EE);
+    clip-path: circle(0 at right 0);
+  }
+  
+  section::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#E55D87, #5FC3E4);
+    clip-path: circle(0 at 10% 70%);
+  }
+  
+  .container-ajuda {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 0;
+  }
+  
+  .container-ajuda .card {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background-color: #343A40;
+    margin: 20px;
+    box-shadow: 8px 8px #052f3b34;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    color:#0EC7F0 ;
+    text-decoration: none;
+  }
+  
+  .container-ajuda .card .content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.5s;
+  }
+  
+  .container-ajuda .card:hover .content {
+    transform: translateY(-20px);
+  }
+  
+  .container-ajuda .card .content .imgBx {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+  }
+  
+  .container-ajuda .card .content .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .container-ajuda .card .content .contentBx h3 {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 0 10px;
+    line-height: 1.1em;
+  }
+  
+  .container-ajuda .card .content .contentBx h3 span {
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: initial;
+  }
+  
+  .container-ajuda .card .sci {
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+  }
+  
+  .container-ajuda .card .sci .redes {
+    list-style: none;
+    margin: 0 0px;
+    transform: translateY(40px);
+    transition: 0.5s;
+    opacity: 0;
+    text-decoration: none;
+  }
+  
+  .container-ajuda .card:hover .sci .redes {
+    transform:translateY(0px);
+    opacity: 1;
+  }
+  
+  .container-ajuda .card .sci .redes a {
+    color: #fff;
+    font-size: 20px;
+  }
