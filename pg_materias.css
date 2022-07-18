@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;1,400;1,700&family=Roboto+Mono:ital,wght@0,400;0,600;1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #94c7d757;
+}
+
+
+/*Animaçãod dos links*/
+.animacao:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    font-family: 'Roboto Mono';
+    font-weight: 700;
+
+}
+
+.animacao:hover {
+    background: rgba(1, 1, 12, 0.459);
+    font-family: 'Roboto Mono';
+    font-weight: 700;
+    border-radius: 10px;
+    
+
+}
+.barraDeNavegacao {
+    font-family: 'Roboto Mono';
+    font-weight: 700;
+
+}
+
+.rodaPe {
+    font-family: 'Roboto Mono';
+    color: #0DCACE;
+    text-decoration: none;
+
+}
+
+/* a partir daqui*/
+
+.cardAnimacao {
+    overflow: hidden;
+}
+
+.cardAnimacao {
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.cardAnimacao:hover {
+    -moz-transform: scale(0.05);
+    -webkit-transform: scale(0.05);
+    transform: scale(1.05);
+    
+}
+.card-body{
+    background-color: #022f3d10;
+    
+}
+
+.botao{
+	background-color: rgb(65, 65, 65);
+}
+
+.TituloPagina {
+    color: #293136;
+    font-family: 'Roboto Mono';
+    font-weight: 700;
+
+}
+
+.SubTituloPagina {
+    font-family: 'Roboto Mono';
+    color: #293136;
+    text-align: left;
+    font-weight: 500;
+    
+}
+
+
+.titulo-materia {
+    font-family: 'Roboto Mono', sans-serif;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0.11);
+    color: rgb(58, 33, 2);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.descricao-materia {
+    font-family: 'PT Sans';
+    font-weight: 300;
+    color: rgb(63, 63, 63);
+}
+
+.iniciar-aula{
+    background-color: rgba(0, 0, 0, 0.11);
+    color: rgb(58, 33, 2) ;
+    font-weight: 700;
+}
+
+
