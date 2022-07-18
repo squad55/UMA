@@ -14,10 +14,10 @@
     <title>UMA - Matérias</title>
 </head>
 
-<body cz-shortcut-listen="true">
+<body style="min-width:480px;" cz-shortcut-listen="true">
     <header>
-        <!--Inicio da barra de navegação-->
-        <nav class="navbar navbar-expand-lg bg-dark barraDeNavegacao">
+          <!--Inicio da barra de navegação-->
+          <nav class="navbar navbar-expand-lg bg-dark barraDeNavegacao">
             <div class="container-fluid">
                 <div class="align-items-center">
                     <a class="navbar-brand text-info" href="/home.html">
@@ -31,33 +31,36 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
                         <li class="nav-item">
-                            <a class="nav-link active text-info animacao" aria-current="page" href="/login.html">Login</a>
+                            <a class="nav-link active text-info animacao p-2 " aria-current="page"
+                                href="/login.html">Login</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-info animacao" href="#">Perfil</a>
+                            <a class="nav-link text-info animacao p-2" href="/perfil.html">Perfil</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-info animacao" href="/pg_materias.html">Matéria</a>
+                            <a class="nav-link text-info animacao p-2" href="/pg_materias.html">Matéria</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-info animacao" href="/contatos.html">Ajuda</a>
+                            <a class="nav-link text-info animacao p-2" href="/contatos.html">Ajuda</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!--Fim da barra de navegação-->
-        <section>
-            <div class="m-4">
-                <h1 class="TituloPagina"><span>Matérias</span></h1>
-                <p class="SubTituloPagina pt-5">Escolha a matéria que deseja estudar. Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Dolorum labore veniam deleniti obcaecati doloremque nostrum numquam autem nulla
-                    nam suscipit repudiandae tempore quas non tempora, libero sit enim impedit et.</p>
-            </div>
-            <hr class="featurette-divider">
-        </section>
+    </header>
+    <!--cards do main-->
+    <section>
+        <div class="m-4">
+            <h1 class="TituloPagina"><span>Matérias</span></h1>
+            <p class="SubTituloPagina pt-5">Escolha a matéria que deseja estudar. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Dolorum labore veniam deleniti obcaecati doloremque nostrum numquam autem nulla
+                nam suscipit repudiandae tempore quas non tempora, libero sit enim impedit et.</p>
+        </div>
+        <hr class="featurette-divider">
+    </section>
     </header>
     <!--Card's das materias-->
     <main>
@@ -70,8 +73,9 @@
                             alt="Matemática" src="/Img/matematica_img.jpg" data-holder-rendered="true"
                             style="height: 225px; width: 100%; display: block;">
                         <div class="card-body  text-item">
-                            <h3 class="titulo-materia" >Matemática</h3>
-                            <p class="card-text descricao-materia">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eveniet
+                            <h3 class="titulo-materia">Matemática</h3>
+                            <p class="card-text descricao-materia">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Quis eveniet
                                 recusandae numquam nobis reprehenderit commodi repellat veniam earum maxime velit
                                 ducimus, culpa libero, obcaecati quibusdam in error nihil id aliquam.</p>
                             <div class="d-flex justify-content-between align-items-center">
@@ -96,8 +100,9 @@
                             alt="Física" src="/Img/fisica_img.jpeg" data-holder-rendered="true"
                             style="height: 225px; width: 100%; display: block;">
                         <div class="card-body">
-                            <h3 class="titulo-materia" >Física</h3>
-                            <p class="card-text descricao-materia">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eveniet
+                            <h3 class="titulo-materia">Física</h3>
+                            <p class="card-text descricao-materia">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Quis eveniet
                                 recusandae numquam nobis reprehenderit commodi repellat veniam earum maxime velit
                                 ducimus, culpa libero, obcaecati quibusdam in error nihil id aliquam.</p>
                             <div class="d-flex justify-content-between align-items-center">
@@ -122,8 +127,9 @@
                             alt="Biologia" src="/Img/biologia.jpg" data-holder-rendered="true"
                             style="height: 225px; width: 100%; display: block;">
                         <div class="card-body">
-                            <h3 class="titulo-materia" >Biología</h3>
-                            <p class="card-text descricao-materia">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eveniet
+                            <h3 class="titulo-materia">Biología</h3>
+                            <p class="card-text descricao-materia">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Quis eveniet
                                 recusandae numquam nobis reprehenderit commodi repellat veniam earum maxime velit
                                 ducimus, culpa libero, obcaecati quibusdam in error nihil id aliquam.</p>
                             <div class="d-flex justify-content-between align-items-center">
@@ -148,8 +154,9 @@
                             alt="Química" src="/Img/quimica.jpg" data-holder-rendered="true"
                             style="height: 225px; width: 100%; display: block;">
                         <div class="card-body">
-                            <h3 class="titulo-materia" >Química</h3>
-                            <p class="card-text descricao-materia">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eveniet
+                            <h3 class="titulo-materia">Química</h3>
+                            <p class="card-text descricao-materia">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Quis eveniet
                                 recusandae numquam nobis reprehenderit commodi repellat veniam earum maxime velit
                                 ducimus, culpa libero, obcaecati quibusdam in error nihil id aliquam.</p>
                             <div class="d-flex justify-content-between align-items-center">
@@ -174,8 +181,9 @@
                             alt="Português" src="/Img/portugues.jpg" data-holder-rendered="true"
                             style="height: 225px; width: 100%; display: block;">
                         <div class="card-body">
-                            <h3 class="titulo-materia" >Português</h3>
-                            <p class="card-text descricao-materia">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eveniet
+                            <h3 class="titulo-materia">Português</h3>
+                            <p class="card-text descricao-materia">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Quis eveniet
                                 recusandae numquam nobis reprehenderit commodi repellat veniam earum maxime velit
                                 ducimus, culpa libero, obcaecati quibusdam in error nihil id aliquam.</p>
                             <div class="d-flex justify-content-between align-items-center">
@@ -200,8 +208,9 @@
                             alt="Gramática" src="/Img/gramatica.jpeg" data-holder-rendered="true"
                             style="height: 225px; width: 100%; display: block;">
                         <div class="card-body">
-                            <h3 class="titulo-materia" >Gramática</h3>
-                            <p class="card-text descricao-materia">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eveniet
+                            <h3 class="titulo-materia">Gramática</h3>
+                            <p class="card-text descricao-materia">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Quis eveniet
                                 recusandae numquam nobis reprehenderit commodi repellat veniam earum maxime velit
                                 ducimus, culpa libero, obcaecati quibusdam in error nihil id aliquam.</p>
                             <div class="d-flex justify-content-between align-items-center">
@@ -226,8 +235,9 @@
                             alt="Inglês" src="/Img/Ingles.jpg" data-holder-rendered="true"
                             style="height: 225px; width: 100%; display: block;">
                         <div class="card-body">
-                            <h3 class="titulo-materia" >Inglês</h3>
-                            <p class="card-text descricao-materia">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eveniet
+                            <h3 class="titulo-materia">Inglês</h3>
+                            <p class="card-text descricao-materia">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Quis eveniet
                                 recusandae numquam nobis reprehenderit commodi repellat veniam earum maxime velit
                                 ducimus, culpa libero, obcaecati quibusdam in error nihil id aliquam.</p>
                             <div class="d-flex justify-content-between align-items-center">
@@ -252,8 +262,9 @@
                             alt="História" src="/Img/Historia.jpg" data-holder-rendered="true"
                             style="height: 225px; width: 100%; display: block;">
                         <div class="card-body">
-                            <h3 class="titulo-materia" >Histórias</h3>
-                            <p class="card-text descricao-materia">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eveniet
+                            <h3 class="titulo-materia">Histórias</h3>
+                            <p class="card-text descricao-materia">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Quis eveniet
                                 recusandae numquam nobis reprehenderit commodi repellat veniam earum maxime velit
                                 ducimus, culpa libero, obcaecati quibusdam in error nihil id aliquam.</p>
                             <div class="d-flex justify-content-between align-items-center">
@@ -278,8 +289,9 @@
                             alt="Geografia" src="/Img/Geografia.jpeg" data-holder-rendered="true"
                             style="height: 225px; width: 100%; display: block;">
                         <div class="card-body">
-                            <h3 class="titulo-materia" >Geografia</h3>
-                            <p class="card-text descricao-materia">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eveniet
+                            <h3 class="titulo-materia">Geografia</h3>
+                            <p class="card-text descricao-materia">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Quis eveniet
                                 recusandae numquam nobis reprehenderit commodi repellat veniam earum maxime velit
                                 ducimus, culpa libero, obcaecati quibusdam in error nihil id aliquam.</p>
                             <div class="d-flex justify-content-between align-items-center">
@@ -325,4 +337,5 @@
         crossorigin="anonymous"></script>
 
 </body>
+
 </html>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <!-- Required meta tags -->
@@ -11,13 +11,13 @@
 
     <link rel="stylesheet" href="/style.css">
     <link rel="shortcut icon" href="/Img/icone_logo.png" type="image/x-icon">
-    <title>UMA - Matérias</title>
+    <title>UMA - Perfil</title>
 </head>
 
 <body style="min-width:480px;" cz-shortcut-listen="true">
     <header>
-        <!--Inicio da barra de navegação-->
-        <nav class="navbar navbar-expand-lg bg-dark barraDeNavegacao">
+          <!--Inicio da barra de navegação-->
+          <nav class="navbar navbar-expand-lg bg-dark barraDeNavegacao">
             <div class="container-fluid">
                 <div class="align-items-center">
                     <a class="navbar-brand text-info" href="/home.html">
@@ -51,23 +51,55 @@
         </nav>
         <!--Fim da barra de navegação-->
     </header>
-    <!--cards do main-->
-    </header>
-    <br><br><br>
     <main>
-        <div class="container-md">
-            <div class="row align-items-center">
-                <div class="col-lg-7 text-center">
-                    <h1 class="titulo-pagina">Um Minuto para Aprender</h1>
-                    <br>
-                    <blockquote class="frase-citada">
-                        "A escola é um edificio com quatro paredes e o amanhã dentro dele"
-                    </blockquote>
+        <div class="container-md pt-5 align-items-center p-5">
+            <div class="row d-flex justify-content-around">
+                <div class="col-lg-6">
+                    <div class="card p-1" style="width: 18rem;">
+                        <img src="/Img/avatar.jpg" class="card-img-top" alt="Imagem-Avatar" srcset="">
+                        <div class="card-body">
+                            <h6 class="card-title">Usuario:</h6>
+                            <p class="card-text">@bilbo_b</p>
+                            <h6 class="card-title">E-mail:</h6>
+                            <p class="card-text">bilbo@gamil.com</p>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated bg-info"
+                                role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+                                style="width: 25%">25%</div>
+                        </div>
+                        <div class="card-text">
+                            <span class="date">Saldo de Pontos - 00,0</span>
+                            <p>Aqui você pode consultar seu progresso e seus pontos</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-5 imagem-home ">
-                    <div><img src="/Img/pg_home.webp" class="img-fluid" alt="Hora de aprender"></div>
+                <div class="col-lg-6">
+                    <div class="">
+                        <form>
+                            <div>
+                                Nome:<input class="form-control" type="text" placeholder="Bilbo Bolseiro"
+                                    aria-label="Nome" disabled="">
+                                CPF:<input class="form-control" type="number" placeholder="123.456.789-10"
+                                    aria-label="CPF" disabled="">
+                                E-mail:<input class="form-control" type="email" placeholder="bilbo@gamil.com"
+                                    aria-label="E-mail" disabled="">
+                                Telefone:<input class="form-control" type="number" placeholder="(99)9-9999-9999"
+                                    aria-label="Telefone" disabled="">
+                                Nome da Mãe:<input class="form-control" type="text" placeholder="Beladona Tûk"
+                                    aria-label="Mãe" disabled="">
+                                Data de nascimento:<input class="form-control" type="datetime" placeholder="22/09/2890"
+                                    aria-label="Data de nascimento" disabled="">
+                                Endereço:<input class="form-control" type="address"
+                                    placeholder="Bolsão - Vila dos Hobbits" aria-label="Data de nascimento" disabled="">
+                                Escola:<input class="form-control" type="text" placeholder="Escola Estadual do Beirágua"
+                                    aria-label="Escola" disabled="">
+                                Matrícula:<input class="form-control" type="number" placeholder="31022050"
+                                    aria-label="Matrícula" disabled="">
+                            </div>
+                        </form>
+                    </div>
                 </div>
-
             </div>
         </div>
     </main>
@@ -76,7 +108,7 @@
     <footer class="bg-dark rodaPe ">
         <div class="container">
             <div class="row pt-2">
-                <div class=" col-md-4 text-center text-md-left ">
+                <div class="col-md-4 text-center text-md-left ">
                     &copy; 2022 - SQUAD55
                     <img src="/Img/icone_logo.png" height="20px" width="20px" alt="">
                 </div>
