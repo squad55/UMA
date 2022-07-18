@@ -108,13 +108,55 @@ a:active {
     .logo-cadastro{
         display: none;
     }
+
 }
 
 /*Fim da pagina de login/Cadastro*/
 
 
 /*Pagina de perfil*/
+.titolo-card{
+    text-align: center;
+    padding-top: 5px;
+    font-family: 'Roboto Mono';
+    color: #0CCAF0;
+    font-weight: 700;
+}
+.card-aluno{
+    background-color: #343A40;
+    font-family: 'Roboto Mono';
+    color: #0CCAF0;
+    font-weight: 700;
+    border-radius: 20px;
+    box-shadow: 10px 10px #10bcf034;
+}
 
+.dados-perfil{
+    background-color: #343A40;
+    font-family: 'Roboto Mono';
+    color: #0CCAF0;
+    font-weight: 700;
+    border-radius: 20px;
+    box-shadow: 10px 10px #10bcf034;
+    text-align: left;
+    
+}
+.dados-aluno{
+    font-weight: 400;
+    font-family: 'Roboto Mono';
+    color: #0CCAF0;
+    background-color:#62738567;
+    padding: 0px 5px 0px;
+    border-radius: 5px;
+    
+}
+.notificaco-aluno{
+    color: #0CCAF0;
+    font-weight: 100;
+    font-size:smaller;
+    text-align:left;
+    font-family: 'Roboto Mono';
+}
 /*Fim da pagina de perfil*/
 
 /*Pagina de matérrias*/
@@ -179,7 +221,6 @@ a:active {
 
 .iniciar-aula{
     background-color: #10CAF0;
-    color: rgb(58, 33, 2) ;
     font-weight: 700;
 }
 /*Fim da pagina de matérrias*/
@@ -223,7 +264,7 @@ section::before {
   
 
   
-  .container-ajuda .card {
+  .container-ajuda .card-ajuda {
     
     width: 300px;
     height: 400px;
@@ -239,7 +280,7 @@ section::before {
     text-decoration: none;
   }
   
-  .container-ajuda .card .content {
+  .container-ajuda .card-ajuda .content {
     
     display: flex;
     justify-content: center;
@@ -248,18 +289,18 @@ section::before {
     transition: 0.5s;
   }
   
-  .container-ajuda .card:hover .content {
+  .container-ajuda .card-ajuda:hover .content {
     transform: translateY(-20px);
   }
   
-  .container-ajuda .card .content .imgBx {
+  .container-ajuda .card-ajuda .content .imgBx {
     
     width: 150px;
     height: 150px;
     overflow: hidden;
   }
   
-  .container-ajuda .card .content .imgBx img {
+  .container-ajuda .card-ajuda .content .imgBx img {
     
     top: 0;
     left: 0;
@@ -268,7 +309,7 @@ section::before {
     object-fit: cover;
   }
   
-  .container-ajuda .card .content .contentBx .titulo-card {
+  .container-ajuda .card-ajuda .content .contentBx .titulo-card {
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -279,19 +320,19 @@ section::before {
     line-height: 1.1em;
   }
   
-  .container-ajuda .card .content .contentBx .titulo-card span {
+  .container-ajuda .card-ajuda .content .contentBx .titulo-card span {
     font-size: 12px;
     font-weight: 300;
     text-transform: initial;
   }
   
-  .container-ajuda .card .sci {
+  .container-ajuda .card-ajuda .sci {
     
     bottom: 50px;
     display: flex;
   }
   
-  .container-ajuda .card .sci .redes {
+  .container-ajuda .card-ajuda .sci .redes {
     list-style: none;
     margin: 0 0px;
     transform: translateY(40px);
@@ -300,12 +341,12 @@ section::before {
     text-decoration: none;
   }
   
-  .container-ajuda .card:hover .sci .redes {
+  .container-ajuda .card-ajuda:hover .sci .redes {
     transform:translateY(0px);
     opacity: 1;
   }
   
-  .container-ajuda .card .sci .redes .botao-ajuda {
+  .container-ajuda .card-ajuda .sci .redes .botao-ajuda {
     color: #fff;
     font-size: 20px;
   }
