@@ -43,21 +43,19 @@ Após a entrega na Plataforma, é hora de preparar a apresentação. O líder do
 
 O Squad terá 30 minutos de apresentação, divido da seguinte forma: 
 
- 5 minutos para o Pitch 
+5 minutos para o Pitch 
 10 minutos para a apresentação dos bastidores 
-
 10 minutos para perguntas da equipe de avaliadores 
-
 5 minutos para o encerramento da apresentação 
 
 O Squad deverá usar um PPT para apoiar o pitch, que poderá ser apresentado por um único integrante do squad ou de modo colaborativo, com cada um dos integrantes apresentando uma etapa. Cuidado apenas com o tempo! 
 
 Após o Pitch, todos devem apresentar os bastidores. É importante mencionar os seguintes pontos: 
  
-Cronograma das atividades a serem desenvolvidas (como serão organizadas as próximas entregas?) 
+- Cronograma das atividades a serem desenvolvidas (como serão organizadas as próximas entregas?) 
 
-Como aconteceu a divisão das tarefas entre os integrantes do Squad 
+- Como aconteceu a divisão das tarefas entre os integrantes do Squad 
 
-Quais foram os desafios  
+- Quais foram os desafios  
 
-Pontos de melhoria que o Squad já identificou
+- Pontos de melhoria que o Squad já identificou
