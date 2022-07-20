@@ -3,7 +3,14 @@
 Considerando o público-alvo e o problema a ser solucionado, definidos anteriormente, comece a desenvolver a sua solução. Para isso, considere: 
 
 Criar as páginas de acordo com seu projeto 
-Usando HTML, CSS e BOOTSTRAP, faça as formatações de acordo com a paleta de cores escolhida 
+
+Usando:
+
+- HTML 
+- CSS  
+- BOOTSTRAP
+
+Faça as formatações de acordo com a paleta de cores escolhida 
 
 A navegação entre as telas 
 
