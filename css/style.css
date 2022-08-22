@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;1,400;1,700&family=Roboto+Mono:ital,wght@0,400;0,600;1,100;1,200&display=swap');
+
+
+/*Todas as paginas*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #94c7d757;
+}
+
+.animacao:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    font-family: 'Roboto Mono';
+    font-weight: 700;
+
+}
+
+.animacao:hover {
+    background: rgba(1, 1, 12, 0.459);
+    font-family: 'Roboto Mono';
+    font-weight: 700;
+    border-radius: 10px;
+    
+
+}
+.barraDeNavegacao {
+    font-family: 'Roboto Mono';
+    font-weight: 700;
+
+}
+
+.rodaPe {
+    font-family: 'Roboto Mono';
+    color: #0EC7F0;
+    text-decoration: none;
+
+}
+/*Fim de todas as paginas*/
+
+/*Pagina de home*/
+
+.titulo-pagina {
+    font-family:'Roboto Mono';
+    background-color: rgba(0, 0, 0, 0.11);
+    color: rgb(58, 33, 2);
+    font-weight: 900;
+    border-radius: 15px;
+    text-shadow: 2px 2px #10bcf065;
+    
+}
+.frase-citada {
+    font-family:'Roboto Mono', monospace;
+    color: rgb(58, 33, 2);
+    font-weight: 700;
+    font-style: italic;
+    font-size: 16px;
+}
+
+/*Fim da pagina de home*/
+
+
+/*Pagina de login/Cadastro*/
+.bv {
+    font-family: 'Roboto Mono';
+    color: #0CCAF0;
+    font-weight: 500;
+    margin-top: 5px;
+    text-decoration: none;
+    
+}
+
+.divlogin {
+    background-color: #343A40;
+    font-weight: bold;
+    border-radius: 20px;
+    box-shadow: 10px 10px #10bcf034;
+}
+
+.botao-login {
+    text-align: center;
+    font-weight: 600;
+}
+
+.bv-cadastro {
+    font-family: 'Roboto Mono';
+    color: #0CCAF0;
+    font-weight: 500;
+    margin-top: 5px;
+    text-decoration: none;
+    
+}
+
+@media (max-width: 992px) {
+    .logo {
+        display: none;
+    }
+    form {
+        align-items: center;
+    }
+    .botao-login {
+        text-align: center;
+    }
+    .logo-cadastro{
+        display: none;
+    }
+
+}
+
+/*Fim da pagina de login/Cadastro*/
+
+
+/*Pagina de perfil*/
+.titulo-progresso{
+    padding-top: 5px;
+    font-family: 'Roboto Mono';
+    color: #0CCAF0;
+    font-weight: 700;
+    text-decoration: none;
+}
+.titulo-progresso:hover {
+    color: #E9ECEF;
+
+}
+
+.titolo-card{
+    text-align: center;
+    padding-top: 5px;
+    font-family: 'Roboto Mono';
+    color: #0CCAF0;
+    font-weight: 700;
+}
+.card-aluno{
+    background-color: #343A40;
+    font-family: 'Roboto Mono';
+    color: #0CCAF0;
+    font-weight: 700;
+    border-radius: 20px;
+    box-shadow: 10px 10px #10bcf034;
+}
+
+.dados-perfil{
+    background-color: #343A40;
+    font-family: 'Roboto Mono';
+    color: #0CCAF0;
+    font-weight: 700;
+    border-radius: 20px;
+    box-shadow: 10px 10px #10bcf034;
+    text-align: left;
+    
+}
+.dados-aluno{
+    font-weight: 400;
+    font-family: 'Roboto Mono';
+    color: #0CCAF0;
+    background-color:#62738567;
+    padding: 0px 5px 0px;
+    border-radius: 5px;
+    
+}
+.notificaco-aluno{
+    color: #0CCAF0;
+    font-weight: 100;
+    font-size:smaller;
+    text-align:left;
+    font-family: 'Roboto Mono';
+}
+/*Fim da pagina de perfil*/
+
+/*Pagina de matérrias*/
+.cardAnimacao {
+    overflow: hidden;
+    
+}
+
+.cardAnimacao {
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.cardAnimacao:hover {
+    -moz-transform: scale(0.05);
+    -webkit-transform: scale(0.05);
+    transform: scale(1.05);
+    
+}
+.card-body{
+    background-color: #022f3d10;
+    
+    
+}
+
+.botao{
+	background-color: rgb(65, 65, 65);
+}
+
+.TituloPagina {
+    color: #293136;
+    font-family: 'Roboto Mono';
+    font-weight: 700;
+
+}
+
+.SubTituloPagina {
+    font-family: 'Roboto Mono';
+    color: #293136;
+    text-align: left;
+    font-weight: 500;
+    
+}
+
+.titulo-materia {
+    font-family: 'Roboto Mono', sans-serif;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0.11);
+    color: rgb(58, 33, 2);
+    border-radius: 5px;
+    text-align: center;
+    text-shadow: 2px 2px #10bcf065;
+}
+
+.descricao-materia {
+    font-family: 'PT Sans';
+    font-weight: 300;
+    color: rgb(63, 63, 63);
+}
+
+.iniciar-aula{
+    background-color: #10CAF0;
+    font-weight: 700;
+}
+/*Fim da pagina de matérrias*/
+
+/*Pagina de Contato/Ajuda*/
+.redes{
+    background: rgba(1, 1, 12, 0.459);
+    font-family: 'Roboto Mono';
+    font-weight: 700;
+    border-radius: 10px;
+}
+.botao-ajuda {
+    background-color: #12141C;
+    text-align: center;
+    font-weight: 600;
+}
+.titulo-card{
+    font-family: 'Roboto Mono';
+    color: #0CCAF0;
+    font-weight: 500;
+    margin-top: 5px;
+    
+}
+section::before {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#DA22FF, #9733EE);
+    clip-path: circle(0 at right 0);
+  }
+  
+  section::after {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#E55D87, #5FC3E4);
+    clip-path: circle(0 at 10% 70%);
+  }
+  
+
+  
+  .container-ajuda .card-ajuda {
+    
+    width: 300px;
+    height: 400px;
+    background-color: #343A40;
+    margin: 20px;
+    box-shadow: 8px 8px #052f3b34;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    color:#0EC7F0 ;
+    text-decoration: none;
+  }
+  
+  .container-ajuda .card-ajuda .content {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.5s;
+  }
+  
+  .container-ajuda .card-ajuda:hover .content {
+    transform: translateY(-20px);
+  }
+  
+  .container-ajuda .card-ajuda .content .imgBx {
+    
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+  }
+  
+  .container-ajuda .card-ajuda .content .imgBx img {
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .container-ajuda .card-ajuda .content .contentBx .titulo-card {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 0 10px;
+    line-height: 1.1em;
+  }
+  
+  .container-ajuda .card-ajuda .content .contentBx .titulo-card span {
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: initial;
+  }
+  
+  .container-ajuda .card-ajuda .sci {
+    
+    bottom: 50px;
+    display: flex;
+  }
+  
+  .container-ajuda .card-ajuda .sci .redes {
+    list-style: none;
+    margin: 0 0px;
+    transform: translateY(40px);
+    transition: 0.5s;
+    opacity: 0;
+    text-decoration: none;
+  }
+  
+  .container-ajuda .card-ajuda:hover .sci .redes {
+    transform:translateY(0px);
+    opacity: 1;
+  }
+  
+  .container-ajuda .card-ajuda .sci .redes .botao-ajuda {
+    color: #fff;
+    font-size: 20px;
+  }
